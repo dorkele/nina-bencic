@@ -1,0 +1,19 @@
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "tt_hoves_triallight";
+}
+
+.center {
+    font-size: 100px;
+}
+
+.contact {
+    font-size: 20px;
+    cursor: pointer;
+}
