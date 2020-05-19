@@ -13,5 +13,5 @@ export default function Images() {
         randomYArray.push(Math.round(Math.random() * 1250));
     }
     let src = "/images/img1.jpeg";
-    return <BlurOutFrame src={src} />;
+    return <BlurOutFrame src={src} x={x} y={y} />;
 }
