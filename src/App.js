@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Info from "./Info";
-import Images from "./Images";
+import BlurOutFrame from "./blur-out-frame";
+
 import "./App.css";
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
     return (
         <React.Fragment>
             {info && <Info setInfo={setInfo} />}
-            <Images />
+            <BlurOutFrame />
             <Header setInfo={setInfo} />
         </React.Fragment>
     );
