@@ -1,9 +1,27 @@
 .container {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     right: 0;
     height: 100%;
     width: 100%;
-    z-index: 10;
+    z-index: 200;
     text-align: center;
+    backdrop-filter: blur(10px);
+    font-family: "space_grotesklight";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+}
+
+.iks {
+    cursor: pointer;
 }

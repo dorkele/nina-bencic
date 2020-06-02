@@ -12,9 +12,11 @@
 .center {
     font-size: 100px;
     font-family: "space_grotesklight";
+    z-index: 1;
 }
 
 .contact {
     font-size: 20px;
     cursor: pointer;
+    z-index: 210;
 }
