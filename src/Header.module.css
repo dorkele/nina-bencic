@@ -7,16 +7,22 @@
     align-items: center;
     justify-content: space-between;
     font-family: "tt_hoves_triallight";
+    z-index: 1;
 }
 
 .center {
     font-size: 100px;
     font-family: "space_grotesklight";
-    z-index: 1;
+    z-index: 2;
 }
 
 .contact {
     font-size: 20px;
     cursor: pointer;
-    z-index: 210;
+    z-index: 4;
+}
+@media only screen and (max-width: 720) {
+    .center {
+        font-size: 50px;
+    }
 }

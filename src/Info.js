@@ -20,7 +20,9 @@ export default function Info({ setInfo, info }) {
             )}
             {info === "contact" && (
                 <div className={styles.info}>
-                    info[at]ninabencic.com↗ Linkedin↗ Instagram↗
+                    <p>info[at]ninabencic.com↗</p>
+                    <p>Linkedin↗</p>
+                    <p>Instagram↗</p>
                 </div>
             )}
         </div>
