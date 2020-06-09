@@ -8,6 +8,7 @@ export default function App() {
         <div className="box">
             <Header />
             <BlurOutFrame />
+            <BlurOutFrame delay={2} />
         </div>
     );
 }

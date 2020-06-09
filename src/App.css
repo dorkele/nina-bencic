@@ -27,6 +27,8 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 img {
@@ -35,6 +37,6 @@ img {
 
 @media screen and (max-width: 720) {
     img {
-        height: 70%;
+        height: 50%;
     }
 }
