@@ -26,6 +26,17 @@
 .iks {
     cursor: pointer;
     z-index: 5;
+    height: 4%;
+    padding-top: 2%;
+}
+
+.icon {
+    height: 18px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 720) {
