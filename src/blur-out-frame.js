@@ -3,8 +3,9 @@ import { Frame, useAnimation } from "framer";
 
 export default function BlurOutFrame({ delay }) {
     const animation = {
-        opacity: [0, 0, 1, 1, 0.5, 0],
+        opacity: [0, 0, 1, 1, 1, 0.5, 0],
         filter: [
+            "blur(0px)",
             "blur(0px)",
             "blur(0px)",
             "blur(0px)",
@@ -64,8 +65,8 @@ export default function BlurOutFrame({ delay }) {
             top={top}
             animate={controls}
             transition={{
-                times: [0, 0.1, 0.4, 0.6, 0.8, 1],
-                duration: 5,
+                times: [0, 0.1, 0.4, 0.6, 0.7, 0.8, 1],
+                duration: 7,
                 delay: delay,
             }}
             onAnimationComplete={loop}
