@@ -7,7 +7,6 @@
     z-index: 5;
     text-align: center;
     backdrop-filter: blur(10px);
-    font-family: "space_grotesklight";
     display: flex;
     flex-direction: column;
     align-items: center;
