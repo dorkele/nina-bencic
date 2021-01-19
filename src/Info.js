@@ -35,7 +35,7 @@ export default function Info({ setInfo, info }) {
             )}
             {info === "contact" && (
                 <div className={styles.info}>
-                    <p>info[at]ninabencic.com</p>
+                    <p className={styles.text}>info[at]ninabencic.com</p>
                     <p>
                         <a
                             target="_blank"

@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90%;
-    width: 50%;
+    width: 60%;
     z-index: 5;
 }
 
@@ -38,11 +38,11 @@
     color: black;
 }
 
-@media only screen and (max-width: 720) {
-    .container {
-        font-size: 20px;
-    }
+@media (max-width: 720px) {
     .info {
-        width: 70%;
+        font-size: 20px;
+        height: 70%;
+        width: 60%;
+        align-self: center;
     }
 }

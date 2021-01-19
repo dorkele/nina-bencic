@@ -56,7 +56,6 @@ export default function BlurOutFrame({ delay }) {
 
     let left = getRandomPercentage(10, 70);
     let top = getRandomPercentage(10, 60);
-    console.log(delay);
 
     return (
         <Frame
